@@ -1,0 +1,88 @@
+body {
+    height: 50vh;
+    margin: 20px 10px 5px 10px;
+    background-color: #EDD9FC;
+    position: relative;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid violet;
+    table-layout: fixed;
+    width: 100%;
+    width: 80;
+    border: 2;
+    align-self: center;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid violet;
+}
+
+th {
+    color: white;
+    background-color: violet;
+    padding: 5px;
+    width: 40;
+}
+
+tr {
+    height: 45px;
+}
+
+.titulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFF66;
+    text-align: center;
+    font-style: normal;
+}
+
+.subtitulo1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #7B18A7;
+    text-align: center;
+    font-style: normal;
+}
+
+.normal {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #7B18A7;
+    text-align: justify;
+    font-style: normal;
+}
+
+.derecha {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: bold;
+        color: #7B18A7;
+        text-align: right;
+        font-style: normal;
+}
+
+caption {
+    font-size: 24pt;
+    color: #FE7747;
+}
+
+.PieTabla {
+    font-size: 8pt;
+    color: #FE7747;
+    text-align: center;
+}
